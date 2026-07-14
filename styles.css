@@ -20,3 +20,8 @@ h1 {
 .answerButton {
   display: block;
 }
+
+.answerButton.selected {
+  background-color: #4caf50;
+  color: white;
+}
