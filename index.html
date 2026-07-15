@@ -9,10 +9,18 @@
   </head>
   <body>
       <h1>Let's build your perfect custom mug</h1>
-      <div class = container>
-      <h2 id = question>Mug Quiz</h2>
-      <p id = intro >Welcome to the quiz app.</p>
+      <div id= "quiz-container" class = container>
+        <h2 id = question>Mug Quiz</h2>
+        <p id = intro >Welcome to the quiz app.</p>
       </div>
       <button class = nextButton>Next</button>
+
+      <div id="results-container" class=container style="display:none;">
+        <h2>Your Perfect Mug Results</h2>
+        <p>The body of your mug should be:</p>
+        <p id="volume-result"></p>
+        <p>The handle of your mug should be:</p>
+        <p id="handle-result"></p>
+      </div>
   </body>
 </html>
